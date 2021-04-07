@@ -10,12 +10,30 @@
 
   - 멀티 에이전트 심층 강화학습 알고리즘 역시 최적의 행동가치함수(Action-value function) 학습을 목표로 하는 Q-러닝 계열과 정책 함수를 경사상승법을 이용하여 직접 학습하는 정책 경사 계열로 구분할 수 있으며, 대표적인 알고리즘으로는 Q-러닝 계열의 QMIX 알고리즘과 정책 경사 계열의 MADDPG 알고리즘 등이 있다.
 
-  1) Q-learning 기반 MARL(Multi-Agent Reinforcement Learning) 알고리즘
+### 1) Q-learning 기반 MARL(Multi-Agent Reinforcement Learning) 알고리즘 ###
 
-  2) 정책 경사 기반 MARL(Multi-Agent Reinforcement Learning) 알고리즘
+- Q-learning은 모델 없이 학습하는 강화 학습 기법 가운데 하나
+
+- Q-learning은 주어진 상태에서 주어진 행동을 수행하는 것이 가져올 누적 보상의 기대값을 예측하는 함수인 Q 함수를 최적 방정식을 이용하여 학습함으로써 최적의 정책을 학습한다.
+
+- 에이전트는 학습한 Q-함수의 예측값과 ε-탐욕 정책에 따라 각 상태에서 가장 높은 가치를 주는 행동을 선택하며 환경 탐색을 이어 나가는 방식으로 실행된다.
+
+- 알고리즘 예시
+
+  1) DQN
+  2) QMIX
+  3) IQL
+  
+### 2) 정책 경사 기반 MARL(Multi-Agent Reinforcement Learning) 알고리즘 ###
+  
+  - 알고리즘 예시
+
+    1) MADDPG
+    2) M3DDPG
 
 
 
+      
 
 
 
