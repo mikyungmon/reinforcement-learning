@@ -3,6 +3,10 @@
 ![image](https://user-images.githubusercontent.com/66320010/114517912-c2510e80-9c79-11eb-810d-79fc2d3283c4.png)
 
   ## 과정 ##
+  
+  :bulb: 사용한 강화학습 모델 : **QTRAN**
+  
+
 
   1) StarCraft 2 설치 
       
