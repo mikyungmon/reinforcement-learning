@@ -4,4 +4,4 @@
 
 - MARL 프로젝트 
 
-    참고코드 : https://github.com/jk96491/SMAC
+    참고 github : https://github.com/jk96491/SMAC
